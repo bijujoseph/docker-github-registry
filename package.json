@@ -2,7 +2,6 @@
   "name": "docker_node_app",
   "version": "1.0.0",
   "description": "Node.js on Docker",
-  "author": "Sohel Amin <sohelamincse@gmail.com>",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
