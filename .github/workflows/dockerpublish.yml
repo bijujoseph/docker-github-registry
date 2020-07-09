@@ -74,6 +74,7 @@ jobs:
           docker build -t my-engine:latest .
 
           docker tag my-engine:latest $ECR_REGISTRY/$ECR_REPOSITORY:latest
+          docker rmi $ECR_REGISTRY/$ECR_REPOSITORY
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
 
           docker tag my-engine:latest $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
