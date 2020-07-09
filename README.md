@@ -1,6 +1,6 @@
 
 # Docker GitHub Package Registry
-> A sample docker app for github package registry (for testing)
+> A sample docker app for github package registry (for testing docker images)
 
 ## Usage
 Just push to the master branch and GitHub action will automatically handle the build & deploy process for you.
